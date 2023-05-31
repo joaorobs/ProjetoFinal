@@ -19,6 +19,7 @@ nav > ul {
 nav > ul > li {
     padding: 10px;
     width: 100%;
+    justify-content: space-between;
 }
 .tophead {
     background-color: rgb(30, 60, 116);
@@ -30,4 +31,18 @@ nav > ul > li {
     text-align: right;
     padding: 10px 30px;
     color: whitesmoke;
+}
+.esportes{
+        
+}
+.basquete{
+    margin-bottom: 500px;
+    margin-top: 100px;
+}
+.volei{
+    margin-bottom: 500px;
+    margin-top: 100px;
+}
+nav > ul > a {
+    text-decoration: none;
 }
