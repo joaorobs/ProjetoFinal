@@ -1,9 +1,44 @@
+.tophead {
+    background-color: rgb(52, 95, 175);
+    height: 60px;
+    width: 100%;
+    margin-top: -20px;
+    color: whitesmoke;
+}
+.tophead p {
+    text-align: right;
+    padding: 10px 30px;
+}
+.tophead a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.tophead a:hover {
+    text-decoration: underline;
+}
 .bothead {
     background-color: rgb(52, 95, 175);
-    height: 110px;
+    height: 70px;
     width: 100%;
     margin-top: -22px;
     color: whitesmoke;
+    border-top: 0.5px solid whitesmoke;
+}
+.bothead img {
+    width: 300px;
+    height: 70px;
+    
+}
+.intro h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1, h2, h3, p {
+    margin-left: 10px;
+}
+.p_font {
+    font-size: large;
+    font-family: sans-serif;
 }
 body {
     margin: 0px;
@@ -12,37 +47,53 @@ body {
 nav > ul {
     display: flex;
     padding: 0px 300px;
-    margin-top: 30px;
+    margin-top: -40px;
     color: whitesmoke;
     list-style-type: none;
 }
 nav > ul > li {
     padding: 10px;
     width: 100%;
-    justify-content: space-between;
+    margin-left: 70px;
 }
-.tophead {
-    background-color: rgb(30, 60, 116);
-    height: 50px;
-    width: 100%;
-    margin-top: -20px;
-}
-.tophead p {
-    text-align: right;
-    padding: 10px 30px;
+nav > ul > li > a {
+    text-decoration: none;
     color: whitesmoke;
 }
-.esportes{
-        
+nav > ul > li > a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
 }
-.basquete{
-    margin-bottom: 500px;
-    margin-top: 100px;
+.form h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.volei{
-    margin-bottom: 500px;
-    margin-top: 100px;
+form h3 {
+    border-top: 0.5px solid black;
+    padding-top: 15px;
 }
-nav > ul > a {
-    text-decoration: none;
+textarea {
+    min-width: 300px;
+    min-height: 150px;
+}
+.about {
+    display: flex;
+    justify-content: space-evenly;
+}
+.team_dev {
+    width: 30%;
+}
+.team_dev h1 {
+    text-align: center;
+}
+hr {
+    height: 800px;
+    padding: 0;
+}
+#enviar {
+    background-color: rgb(52, 95, 175);
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
