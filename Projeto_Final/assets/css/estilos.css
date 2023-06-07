@@ -1,111 +1,154 @@
 .tophead {
-    background-color: rgb(52, 95, 175);
-    height: 60px;
-    width: 100%;
-    margin-top: -20px;
-    color: whitesmoke;
+  background-color: rgb(52, 95, 175);
+  height: 60px;
+  width: 100%;
+  margin-top: -20px;
+  color: whitesmoke;
 }
 .tophead p {
-    text-align: right;
-    padding: 10px 30px;
+  text-align: right;
+  padding: 10px 30px;
 }
 .tophead a {
-    text-decoration: none;
-    color: whitesmoke;
+  text-decoration: none;
+  color: whitesmoke;
 }
 .tophead a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .bothead {
-    background-color: rgb(52, 95, 175);
-    height: 70px;
-    width: 100%;
-    margin-top: -22px;
-    color: whitesmoke;
-    border-top: 0.5px solid whitesmoke;
+  background-color: rgb(52, 95, 175);
+  height: 70px;
+  width: 100%;
+  margin-top: -22px;
+  color: whitesmoke;
+  border-top: 0.5px solid whitesmoke;
 }
 .bothead img {
-    width: 300px;
-    height: 70px;
-    
+  width: 300px;
+  height: 70px;
 }
 .intro h2 {
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-h1, h2, h3, p {
-    margin-left: 10px;
+h1,
+h2,
+h3,
+p {
+  margin-left: 10px;
 }
 .p_font {
-    font-size: large;
-    font-family: sans-serif;
+  font-size: large;
+  font-family: sans-serif;
 }
 body {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 nav > ul {
-    display: flex;
-    padding: 0px 300px;
-    margin-top: -40px;
-    color: whitesmoke;
-    list-style-type: none;
+  display: flex;
+  padding: 0px 0px 0px 300px;
+  margin-top: -40px;
+  color: whitesmoke;
+  list-style-type: none;
 }
 nav > ul > li {
-    padding: 10px;
-    width: 100%;
-    margin-left: 70px;
+  padding: 10px;
+  width: 100%;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-evenly;
 }
 nav > ul > li > a {
-    text-decoration: none;
-    color: whitesmoke;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 0;
 }
 nav > ul > li > a:hover {
-    text-decoration: underline;
-    color: whitesmoke;
+  text-decoration: underline;
+  color: whitesmoke;
 }
 .form h2 {
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 form h3 {
-    border-top: 0.5px solid black;
-    padding-top: 15px;
+  border-top: 0.5px solid black;
+  padding-top: 15px;
 }
 textarea {
-    min-width: 300px;
-    min-height: 150px;
-}
-.about {
-    display: flex;
-    justify-content: space-evenly;
-}
-.team_dev {
-    width: 30%;
-}
-.team_dev h1 {
-    text-align: center;
+  min-width: 300px;
+  min-height: 150px;
 }
 hr {
-    height: 800px;
-    padding: 0;
+  height: 800px;
+  padding: 0;
 }
 #enviar {
-    background-color: rgb(52, 95, 175);
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(52, 95, 175);
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
 }
 .basquete {
-    text-align: center;
-    height: 500px;
-    background-color: rgb(52, 95, 175);
+  text-align: center;
+  height: 500px;
+  background-color: rgb(52, 95, 175);
 }
-.regata{
-    width: 100px;
-    height: 75px;
+.regata img {
+  width: 100px;
+  height: 75px;
 }
-.tenisb{
- margin-left: 500px;
+.tenisb {
+  margin-left: 500px;
+}
+.form fieldset {
+  background-color: rgba(52, 95, 175, 70%);
+  padding-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+.form input,
+textarea {
+  border-radius: 10px;
+}
+.team_dev h1,
+p {
+  text-align: center;
+}
+.team_dev_2 h1,
+p {
+  text-align: center;
+}
+#pedro_foto {
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 200px;
+}
+#joao_foto {
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 200px;
+}
+.blue_bg_p {
+  font-size: large;
+  font-family: sans-serif;
+  background-color: rgba(52, 95, 175, 50%);
+  width: 60%;
+  height: 50px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.team_dev {
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+.team_dev_2 {
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
 }
