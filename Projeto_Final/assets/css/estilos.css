@@ -92,18 +92,6 @@ hr {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
 }
-.basquete {
-  text-align: center;
-  height: 500px;
-  background-color: rgb(52, 95, 175);
-}
-.regata img {
-  width: 100px;
-  height: 75px;
-}
-.tenisb {
-  margin-left: 500px;
-}
 .form fieldset {
   background-color: rgba(52, 95, 175, 70%);
   padding-top: 20px;
@@ -152,3 +140,40 @@ p {
   padding-bottom: 30px;
   border-bottom: 1px solid black;
 }
+.basquete h2 {
+  padding-top: 10px;
+}
+.basquete {
+  text-align: center;
+  height: 500px;
+  background-color: rgb(52, 95, 175);
+}
+.regata img {
+  width: 200px;
+  height: 200px;
+}
+#regataa {
+}
+.tenisb img {
+  width: 300px;
+  height: 200px;
+  padding-top: 35px;
+}
+#tenisbb {
+  margin-top: -15px;
+}
+.bola img {
+  padding-left: 50px;
+}
+.aaas {
+  display: flex;
+}
+.aaas img {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#bolaa {
+  margin-left: 50px;
+}
+
