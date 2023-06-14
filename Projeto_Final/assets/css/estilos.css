@@ -68,6 +68,9 @@ html {
   body {
     margin: 0px;
     padding: 0px;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
   }
   nav > ul {
     display: flex;
@@ -167,13 +170,95 @@ html {
     padding-top: 10px;
   }
   .basquete {
+    height: 1100px;
+    background-color: #FF5252;
+  }
+  #basqueete{
     text-align: center;
-    height: 500px;
-    background-color: rgb(52, 95, 175);
+    margin-right: 105px;
+  }
+  .basba{
+    display: flex;
+  }
+  #bas{
+    max-width: 500px;
+    margin-top: 75px;
+    margin-left: 125px;
+    font-size: large;
+    font-family: sans-serif;
+  }
+  #mj{
+    width: 300px;
+    height: 300px;
+    margin-left: 325px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #catalogoo{
+    text-align: center;
+    margin-right: 105px;
+    margin-top: 50px;
+  }
+  #preçob{
+    margin-left: 50px;;
+  }
+  .compre2{
+    margin-left: 50px;
+    background-color: #2ECC71;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+  }
+  .bola{
+   text-align: center;
+  }
+  .regata{
+    text-align: center;
+  }
+  #preçor{
+    margin-right: 50px;
+  }
+  .compre{
+    margin-right: 35px;
+    background-color: #2ECC71;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+  }
+  #regataa{
+    text-align: center;
   }
   .regata img {
     width: 200px;
     height: 200px;
+  }
+  .tenisb{
+    text-align: center;
+  }
+  .compre3{
+    margin-left: 10px;
+    background-color: #2ECC71;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+  }
+  a{
+    text-decoration: none;
   }
   .tenisb img {
     width: 300px;
@@ -181,13 +266,18 @@ html {
     padding-top: 35px;
   }
   #tenisbb {
+    text-align: center;
     margin-top: -15px;
+  }
+  #bolaa{
+    text-align: center;
   }
   .bola img {
     padding-left: 50px;
   }
   .aaas {
     display: flex;
+    margin-left: 50px;
   }
   .aaas img {
     margin-top: 100px;
@@ -197,10 +287,246 @@ html {
   #bolaa {
     margin-left: 50px;
   }
+  .volei h2{
+    padding-top: 10px;
+  }
+  .volei{
+    height: 1100px;
+    background-color: #FFEE58;
+  }
+  #voolei{
+    text-align: center;
+    margin-right: 105px;
+  }
+  .volvo{
+    display: flex;
+  }
+  #vol{
+    max-width: 500px;
+    margin-top: 75px;
+    margin-left: 125px;
+    font-size: large;
+    font-family: sans-serif;
+  }
+  #varejão{
+    width: 400px;
+    height: 300px;
+    margin-left: 325px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #catalogoo{
+    text-align: center;
+    margin-right: 105px;
+    margin-top: 50px;
+  }
+  #preçobb{
+    margin-left: 220px;
+
+  }
+  .compre4{
+    background-color: #2ECC71;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+  }
+  .bolaaa{
+   text-align: center;
+  }
+  .camisa_volei{
+    text-align: center;
+  }
+  #preço_cam_v{
+    margin-right: 20px;
+  }
+  .compre5{
+    margin-left: 185px;
+    background-color: #2ECC71;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+  }
+  #Camisa_Voleiic{
+    text-align: center;
+  }
+  .camisa_volei img {
+    width: 200px;
+    height: 200px;
+  }
+  .joelheira{
+    text-align: center;
+  }
+  .compre6{
+    margin-left: 10px;  
+    background-color: #2ECC71;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+  }
+  .joelheira img {
+    width: 200px;
+    height: 200px; 
+  }
+  #joelheiraa {
+    text-align: center;
+    margin-top: -15px;
+  }
+  #bolaaa{
+    text-align: center;
+  }
+  .bolav img {
+    padding-left: 50px;
+      width: 200px;
+      height: 200px;
+  }
+  .bbbs {
+    display: flex;
+    margin-left: 50px;
+  }
+  .bbbs img {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #bolaaa {
+    margin-left: 50px;
+  }
+  .futebol h2 {
+    padding-top: 10px;
+  }
+
+  .futebol{
+    height: 1100px;
+    background-color: #98D687;
+  }
+  #footebol{
+    text-align: center;
+    margin-right: 105px;
+  }
+  .futfu{
+    display: flex;
+  }
+  #fut{
+    max-width: 500px;
+    margin-top: 75px;
+    margin-left: 125px;
+    font-size: large;
+    font-family: sans-serif;
+  }
+  #uspuelé{
+    width: 500px;
+    height: 300px;
+    margin-left: 325px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #catalogoo{
+    text-align: center;
+    margin-right: 105px;
+    margin-top: 50px;
+  }
+  #preçobf{
+    margin-left: 220px;
+
+  }
+  .compre7{
+    background-color: #2ECC71;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+  }
+  .camisa_de_time{
+    text-align: center;
+  }
+  #preçocst{
+    margin-right: 20px;
+  }
+  .compre8{
+    margin-left: 185px;
+    background-color: #2ECC71;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+  }
+  #camisa_de_timee{
+    text-align: center;
+  }
+  .camisa_de_time img {
+    width: 200px;
+    height: 200px;
+  }
+  .chuteira{
+    text-align: center;
+  }
+  .compre9{
+    margin-left: 10px;  
+    background-color: #2ECC71;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+  }
+  .chuteira img {
+    width: 200px;
+    height: 200px; 
+  }
+  #chuteiraa {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #bolaaf{
+    text-align: center;
+    margin-top: -25px;
+  }
+  .bolaf img {
+    padding-left: 50px;
+      width: 200px;
+      height: 250px;
+  }
+  .fffs {
+    display: flex;
+    margin-left: 50px;
+  }
+  .fffs img {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #bolaaf {
+    margin-left: 50px;
+  }
   footer {
     background-color: rgb(15, 38, 80);
     height: 300px;
-    margin-top: 100px;
     display: flex;
     color: white;
   }
